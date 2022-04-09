@@ -1,0 +1,131 @@
+.dropdown-text {
+  width: 335px;
+  height: 34px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 140%;
+  color: #314363;
+}
+
+.dropdown-outer {
+  position: absolute;
+  width: 376px;
+  height: 54px;
+  padding-top: 18px;
+  background: #f0f5fb;
+  border-radius: 16px;
+}
+
+.dropdown-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  position: absolute;
+  width: 176px;
+  height: 32px;
+}
+
+.dropdown-textt {
+  position: static;
+  left: 36.36%;
+  right: 0%;
+  top: 21.88%;
+  bottom: 21.88%;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 140%;
+
+  letter-spacing: 0.01em;
+
+  color: #7e98ba;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 8px;
+}
+
+.dropdown-images {
+  position: static;
+  width: 56px;
+  height: 32px;
+  left: 0px;
+  top: 0px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
+
+.dropdown-arrow {
+  position: absolute;
+  width: 7.75px;
+  height: 3.88px;
+  left: 90%;
+  cursor: pointer;
+}
+
+.dropdown-box {
+  position: absolute;
+  width: 376px;
+  height: 390px;
+
+  background: #142a51;
+  box-shadow: 0px 25px 70px rgba(53, 69, 98, 0.15),
+    0px 20px 50px rgba(53, 69, 98, 0.15);
+  backdrop-filter: blur(144px);
+  color: white;
+  border-radius: 12px;
+}
+
+.dropdown-box-true {
+  display: none;
+}
+
+.All-Practioners {
+  width: 105px;
+  height: 18px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 140%;
+
+  font-feature-settings: "tnum" on, "lnum" on;
+
+  color: #a0b5d9;
+}
+
+.All-Practioners-data {
+  width: 142px;
+  height: 18px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 140%;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: #dae2ef;
+}
+
+.images {
+  width: 24px;
+  height: 24px;
+  border: 2px solid #142a51;
+  border-radius: 33px;
+}
+
+.Search {
+  width: 368px;
+  height: 48px;
+  background: #1c3663;
+  border-radius: 8px;
+  color: white;
+}

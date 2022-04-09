@@ -1,0 +1,15 @@
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .row{
+      margin-top: 2vh;
+      margin-left: 5vh;
+  }
